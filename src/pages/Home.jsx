@@ -22,19 +22,19 @@ function Home() {
                 <Container>
                     <div className="flex flex-wrap justify-center">
                         <div className="p-2 w-full min-h-[440px]">
-                        <div className="w-full mb-10">
-                            <h1 className="text-2xl leading-normal sm:text-3xl sm:leading-relaxed md:text-4xl md:leading-loose lg:text-5xl lg:leading-relaxed">
-                                &quot;Share your thoughts with the world – start <span className="underline">blogging</span> today&quot;!
-                            </h1>
-                        </div>
+                            <div className="w-full mb-10">
+                                <h1 className="text-2xl leading-normal sm:text-3xl sm:leading-relaxed md:text-4xl md:leading-loose lg:text-5xl lg:leading-relaxed">
+                                    &quot;Share your thoughts with the world – start <span className="underline">blogging</span> today&quot;!
+                                </h1>
+                            </div>
                             
                             <Link
                             to="/login"
                             >
-                                <button
-                                className="text-xl hover:text-gray-300 bg-black text-white rounded-lg px-4 py-2">
+                                <button className="text-xl hover:text-gray-300 bg-black text-white rounded-lg px-4 py-2 sm:text-lg md:text-xl lg:px-6 lg:py-3">
                                     CREATE YOUR BLOG
                                 </button>
+
                             </Link>
                         </div>
                     </div>
