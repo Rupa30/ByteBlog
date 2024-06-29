@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"https://byte-blog-web.vercel.app/",
+  // "proxy":"https://byte-blog-web.vercel.app/",
+  "proxy":"https://cloud.appwrite.io/v1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
