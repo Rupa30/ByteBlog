@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"https://cloud.appwrite.io/v1",
+  "proxy": "https://cloud.appwrite.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
