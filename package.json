@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy":"http://yourapisite.com",
+  "proxy":"https://byte-blog-web.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
